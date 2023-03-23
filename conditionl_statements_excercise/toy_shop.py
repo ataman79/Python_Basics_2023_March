@@ -18,7 +18,7 @@ else:
 rent = final_toys_sum * 0.1
 profit = final_toys_sum - rent
 
-# diff = abs(profit - holiday_price)
+# diff = abs(profit - holiday_price)    - прави абсолютна стойност
 #if profit >= holiday_price:
 #    print(f"Yes! {diff:.2f} lv left.")
 #else:
