@@ -11,6 +11,10 @@ elif number > 1000:
     bonus  = number * 0.10
 
 
+if number % 2 == 0:
+    bonus += 1
+
+
 
 
 print(bonus)
