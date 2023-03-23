@@ -18,6 +18,12 @@ else:
 rent = final_toys_sum * 0.1
 profit = final_toys_sum - rent
 
+# diff = abs(profit - holiday_price)
+#if profit >= holiday_price:
+#    print(f"Yes! {diff:.2f} lv left.")
+#else:
+#    print(f"Not enough money! {diff:.2f} lv needed.")
+
 if profit >= holiday_price:
     print(f"Yes! {(profit - holiday_price):.2f} lv left.")
 
