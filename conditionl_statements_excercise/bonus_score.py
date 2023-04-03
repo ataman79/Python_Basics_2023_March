@@ -7,7 +7,7 @@ elif number > 1000:
     bonus = number * 0.10
 
 else:
-   bonus = number * 0.20
+    bonus = number * 0.20
 
 if number % 2 == 0:
     bonus += 1
