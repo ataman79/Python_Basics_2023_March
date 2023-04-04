@@ -1,4 +1,4 @@
-type_of_product = input()
+type_of_product = input().lower() # прави буквите малки, за да не се получава грешка от въвеждането на потебителя
 
 if type_of_product == "banana" or type_of_product == "apple" or type_of_product == "kiwi" or \
         type_of_product == "cherry" or type_of_product == "lemon" or type_of_product == "grapes":
